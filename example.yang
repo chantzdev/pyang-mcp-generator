@@ -1,0 +1,14 @@
+module example {
+  namespace "http://example.com/example";
+  prefix ex;
+
+  container system {
+    leaf hostname {
+      type string;
+    }
+    leaf port {
+      type uint16;
+    }
+  }
+}
+

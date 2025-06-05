@@ -1,0 +1,2 @@
+# create binding
+PYTHONWARNINGS="ignore" pyang --plugindir "$(python -c "import pyangbind; print(pyangbind.__path__[0] + '/plugin')")"   -f pybind -o example_bindings.py example.yang
